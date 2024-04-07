@@ -22,7 +22,15 @@
             <property name="hibernate.format_sql" value="true"/>
             <property name="hibernate.highlight_sql" value="true"/>
 
-            
+            <!-- Configuracion de scripts -->
+            <property name="jakarta.persistence.schema-generation.database.action" value="drop-and-create"/>
+            <property name="jakarta.persistence.schema-generation.database.drop-source" value="script"/>
+            <property name="jakarta.persistence.schema-generation.database.create-source" value="script"/>
+
+            <property name="jakarta.persistence.schema-generation.database.drop-script-source" value="META-INF/borrar.sql"/>
+            <property name="jakarta.persistence.schema-generation.database.create-script-source" value="META-INF/crear.sql"/>
+            <property name="jakarta.persistence.sql-load-script-source" value="META-INF/insertar.sql"/>
+
         </properties>
     </persistence-unit>
 

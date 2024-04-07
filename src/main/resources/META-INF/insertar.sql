@@ -1,0 +1,10 @@
+insert into libros(isbn, titulo, autor, fecha, precio) values('A1', 'Java Persistence API (JPA)', 'Cesar', '1983-07-28', 50.90);
+insert into libros(isbn, titulo, autor, fecha, precio) values('A2', 'Hibernate', 'Cesar', '1986-05-04', 30.10);
+insert into libros(isbn, titulo, autor, fecha, precio) values('A3', 'Cálculo 01', 'Venero Corrales', '2020-01-30', 70.23);
+insert into libros(isbn, titulo, autor, fecha, precio) values('A4', 'Don Quijote de La Mancha', 'Miguel De Cervantes', '1994-02-20', 110.25);
+insert into libros(isbn, titulo, autor, fecha, precio) values('A5', 'Los Miserables', 'Victor Hugo', '1980-01-30', 102.00);
+insert into libros(isbn, titulo, autor, fecha, precio) values('A6', 'Cuentos Completos', 'Ribeyro', '1992-01-15', 72.60);
+insert into libros(isbn, titulo, autor, fecha, precio) values('A7', 'Terror Nocturno 01', 'Claudia', '1984-01-15', 42.50);
+insert into libros(isbn, titulo, autor, fecha, precio) values('A8', 'Terror Nocturno 02', 'Claudia', '1985-01-04', 42.50);
+insert into libros(isbn, titulo, autor, fecha, precio) values('A9', 'Terror Nocturno 03', 'Claudia', '1989-05-24', 60.00);
+insert into libros(isbn, titulo, autor, fecha, precio) values('A10', 'Cantar de Mio Cid', null, '2001-12-10', 31.00);
